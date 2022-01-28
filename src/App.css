@@ -1,0 +1,67 @@
+*{
+  font-weight: bold;
+}
+.App{
+  background-color: tomato;
+}
+.layer{
+  background-color: orangered;
+  color: whitesmoke;
+  padding: 1.5vw;
+  text-align: center;
+}
+#result{
+  display: none;
+  margin-top: 5vw;
+  margin-left: 46.5vw;
+  font-size: 1vw;
+  width: 5.5vw;
+  color: white;
+  background-color: green;
+  border: 0.15vw solid white;
+  border-radius: 0.4vw;
+  padding: 1vw;
+  cursor: pointer;
+  box-shadow: 0.2vw 0.2vw 0.5vw 0 black;
+}
+.card{
+  display: block;
+  margin-top: 5vw;
+  margin-left: 25%;
+  width: 50%;
+  height: auto;
+  padding: 1.5vw;
+  background-color: yellow;
+  border-radius: 0.5vw;
+  box-shadow: 0.2vw 0.2vw 0.5vw 0 black;
+}
+#question{
+  color: black;
+  padding: 1vw;
+  font-size: 1.5vw;
+  text-align: center;
+}
+#answer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#opt{
+  cursor: pointer;
+  text-align: center;
+  width: 8vw;
+  margin: 1vw;
+  padding: 1vw;
+  color: azure;
+  background-color: purple;
+  border-radius: 0.35vw;
+  box-shadow: 0.2vw 0.2vw 0.5vw 0 black;
+  font-size: 1vw;
+}
+#opt:hover{
+  background-color: red;
+}
+#score{
+  text-align: center;
+  color: bisque;
+  padding: 1vw;
+}
